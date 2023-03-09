@@ -465,11 +465,12 @@ img{
     height: 100%;
     padding: 0;
     border: none;
+    border-radius: 50%;
     justify-content: center;
     align-items: center;
 }
-.team-icon:hover,
-.team-icon:focus{
+.team-icon-link:hover,
+.team-icon-link:focus{
     background-color: var(--portfolio-button-bg-accent-color);
     cursor: pointer;
 }
@@ -582,11 +583,12 @@ img{
     height: 100%;
     padding: 0;
     border: none;
+    border-radius: 50%;
     justify-content: center;
     align-items: center;
 }
-.footer-item:hover,
-.footer-item:focus {
+.footer-link:hover,
+.footer-link:focus {
     background-color:var(--footer-green);
     cursor: pointer;
 }
