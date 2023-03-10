@@ -35,7 +35,7 @@
 (min-resolution: 2dppx) {
     .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url(../images/office-hero-img2x.jpg);
+            url(../images/office-hero-img-2x.jpg);
     }
 }
 .hero-title{
@@ -86,6 +86,8 @@
 
 .examples-item:not(:last-child) {
     margin-right: 24px;
+    justify-content: center;
+    align-items: center;
 }
 
 .examples-title {

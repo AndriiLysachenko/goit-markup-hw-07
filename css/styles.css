@@ -339,7 +339,7 @@ img{
     height: 432px;
     margin: 0 auto;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url(../images/hero-img-mob.jpg);
+        url(../images/office-hero-img-mob.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -353,7 +353,7 @@ img{
 (min-resolution: 2dppx) {
     .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-                url(../images/hero-img-mob2x.jpg);
+                url(../images/office-hero-img-mob2x.jpg);
     }
 }
 
