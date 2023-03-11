@@ -380,7 +380,7 @@ img{
 }
 .skills-item{
     display: block;
-    width: 264px; 
+  /*  width: 264px; */
 }
 .skills-icon{
     display: none;
