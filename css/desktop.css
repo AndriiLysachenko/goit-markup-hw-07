@@ -5,9 +5,10 @@
 
 
                         /*header*/
-.nav-main {
-    justify-content: space-around;
-}
+ .nav-main{
+    display: flex;
+    margin-left: auto;
+  }
 .header-address-navigation-list {
     display: flex;
     flex-direction: row;
@@ -52,7 +53,8 @@
     gap: 24px;
 }
 .skills-item {
-    max-width: 264px;
+    display: block;
+    width: 264px;
 }
 .skills-icon {
     display: flex;
@@ -68,7 +70,8 @@
     height: 64px;
 }
 .skills-item-title {
-    font-weight: 500;
+    margin-bottom: 8px;
+    font-weight: 400;
     font-size: 20px;
     line-height: 1.2;
 }
@@ -86,8 +89,8 @@
 
 .examples-item:not(:last-child) {
     margin-right: 24px;
-    justify-content: center;
-    align-items: center;
+   /* justify-content: center;
+    align-items: center;*/
 }
 
 .examples-title {
